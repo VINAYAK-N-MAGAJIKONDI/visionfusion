@@ -11,6 +11,7 @@
 header {
   background-color: #283618;
   padding: 20px;
+  min-width: 100vw;
   text-align: center;
 }
 .socialid {
@@ -22,8 +23,8 @@ header {
 }
 .nav-menu {
   display: flex;
-  min-width: 960px;
-  width: 100%;
+  /* min-width: 350px;
+  width: 100%; */
   height: 10%;
   background-color: #283618;
 }
