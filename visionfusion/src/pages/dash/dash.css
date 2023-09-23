@@ -1,0 +1,57 @@
+/* user-dashboard.css */
+
+.user-dashboard {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc; /* Olive background color */
+    padding: 20px;
+    border: 2px solid #556b2f; /* Olive border */
+    border-radius: 10px;
+    
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(85, 107, 47, 0.5); /* Olive shadow */
+  }
+  
+  h1 {
+    color: #556b2f; /* Olive text color */
+  }
+  
+  p {
+    color: #556b2f;
+    margin: 5px 0;
+  }
+  
+  h2 {
+    color: #556b2f;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    color: #556b2f;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+  }
+  
+  button {
+    background-color: #556b2f; /* Olive button background color */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  button:hover {
+    background-color: #6b8e23; /* Lighter olive on hover */
+  }
+  

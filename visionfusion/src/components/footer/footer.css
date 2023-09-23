@@ -1,0 +1,33 @@
+/* footer.css */
+
+.footer-container {
+    background-color: rgb(58, 95, 22);
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  .team-member-names {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .team-member-names p {
+    font-size: 18px;
+    margin: 0;
+    color: rgb(100, 243, 231);
+  }
+  
+  .website-name {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Add more specific styles as needed */
+  

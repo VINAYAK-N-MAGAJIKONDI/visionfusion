@@ -1,0 +1,24 @@
+.bar-graph {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100px;
+  }
+  
+  .bar {
+    width: 15px;
+    background-color: #ff5733;
+    margin-right: 10px;
+    border: 1px solid #e34a4a;
+    border-radius: 3px;
+    transition: height 0.3s;
+  }
+
+  .bar-label {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+    color: #333;
+  }
+  

@@ -1,0 +1,65 @@
+#optionsb {
+  font-family: 'Acme', serif;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #283618;
+  padding: 20px;
+  text-align: center;
+}
+.socialid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  top: 1000px;
+  align-content: flex-end;
+}
+.nav-menu {
+  display: flex;
+  min-width: 960px;
+  width: 100%;
+  height: 10%;
+  background-color: #283618;
+}
+.logo {
+  position: top-left;
+  width: 150px;
+  height: 60px;
+
+}
+.options {
+  display: flex;
+  flex: 1 1 180px;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  gap: 20px;
+}
+#optionsb {
+background-color: #606C38;
+color: #FEFAE0;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+border-radius: 20%;
+
+}
+#optionsb:hover {
+  background-color: #BC6C25;
+}
+#Home {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: 100% 700px;
+  background-color: #FFFEE9;
+}

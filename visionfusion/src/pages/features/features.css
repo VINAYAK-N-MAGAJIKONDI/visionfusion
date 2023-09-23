@@ -1,0 +1,50 @@
+.todo-app {
+    
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(76, 196, 160); /* Dark background */
+    color: #fff; /* Light text */
+    border: 1px solid #333; /* Dark border */
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff; /* Light text */
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #333; /* Dark border */
+    border-radius: 5px;
+    background-color: rgb(2, 58, 46); /* Dark input background */
+    color: #fff; /* Light text */
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    margin: 5px 0;
+    color: #fff; /* Light text for list items */
+  }
+
+  /* Restyle the "End Day" button (optional) */
+  button {
+    background-color: #007bff; /* Blue button */
+    color: #fff; /* Light text */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }

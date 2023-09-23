@@ -1,0 +1,47 @@
+.daily-zen-quote-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #556B2F, #8FBC8F); /* Olive Green theme */
+  animation: backgroundAnimation 10s ease infinite;
+}
+
+/* Rest of the CSS remains the same as in the previous answer */
+
+.zen-quote {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+blockquote {
+  font-size: 24px;
+  color: #333;
+}
+
+cite {
+  display: block;
+  margin-top: 20px;
+  font-style: italic;
+  color: #555;
+}
+@keyframes backgroundAnimation {
+  0% {
+    background: linear-gradient(45deg, #556B2F, #8FBC8F);
+  }
+  25% {
+    background: linear-gradient(45deg, #8FBC8F, #556B2F);
+  }
+  50% {
+    background: linear-gradient(45deg, #556B2F, #8FBC8F);
+  }
+  75% {
+    background: linear-gradient(45deg, #8FBC8F, #556B2F);
+  }
+  100% {
+    background: linear-gradient(45deg, #556B2F, #8FBC8F);
+  }
+}

@@ -1,0 +1,36 @@
+/* MentalHealthHub.css */
+
+.container {
+    text-align: center;
+    font-family: "Dosis", Serif;
+  }
+  
+  .header-image {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 600px;
+  }
+  
+  .title {
+    font-family: "Acme", Serif;
+  }
+  
+  .description {
+    text-align: center;
+  }
+  
+  info {
+    text-align: center;
+    /* Add more styles if needed */
+  }
+  
+  .subtitle {
+    font-family: "Acme", Serif;
+  }
+  
+  about-description {
+    text-align: center;
+    /* Add more styles if needed */
+  }
+  
